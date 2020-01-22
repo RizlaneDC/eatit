@@ -1,0 +1,137 @@
+.carousel-restos {
+    margin-top: 100px;
+    .item {
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .item .btn-primary {
+        margin-top: 50px;
+        padding: auto 100px;
+    }
+    h4 {
+        font-weight: bold;
+        padding: 20px;
+    }
+}
+
+.restaurants {
+    padding-bottom: 50px;
+}
+
+.restaurants h2 {
+    margin-top: 40px;
+}
+
+.ecologie {
+    padding: 50px 0;
+    min-height: 100vh;
+    background: url(../images/livreur4.png) center;
+    background-size: cover;
+    .filigrane {
+        padding: 50px;
+        background-color: rgba(255, 255, 255, 0.591);
+        @include media-breakpoint-up(lg) {
+            margin-left: 50%;
+        }
+    }
+    .btn {
+        font-size: 1.5rem;
+        margin-top: 300px;
+        @include media-breakpoint-up(lg) {
+            margin-left: calc(20% + 300px);
+        }
+    }
+}
+
+.fourchette {
+    background: url(../images/fourchette-2.png)center;
+    background-size: cover;
+    min-height: 50vh;
+    padding: 200px 0;
+    @include media-breakpoint-up(md) {
+        min-height: 100px;
+    }
+}
+
+h2 {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+h3 {
+    margin-bottom: 70px;
+}
+
+.commandez p {
+    margin-top: 70px;
+}
+
+.commandez p,
+h2,
+h3 {
+    text-align: center;
+}
+
+.commandez a {
+    text-transform: none;
+}
+
+.commandez a:hover {
+    color: red;
+}
+
+.reseaux-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.rs {
+    display: flex;
+}
+
+.responsive {
+    // margin-left: auto;
+    margin-right: 50px;
+    width: 1000px;
+}
+
+.slides {
+    list-style: none;
+    padding: 0;
+}
+
+.type-resto {
+    ul {
+        list-style: none;
+        padding: 0;
+        font-size: 2rem;
+        margin-left: auto;
+    }
+}
+
+.nom_resto {
+    margin-left: 100px;
+}
+
+.img {
+    ul {
+        margin-right: 100px;
+    }
+}
+
+.slides {
+    font-size: 1rem;
+    font-weight: bold;
+    flex-direction: row;
+}
+
+.photo-resto {
+    padding: 100px;
+}
+
+.has-drop-cap {
+    padding-top: 50px;
+}

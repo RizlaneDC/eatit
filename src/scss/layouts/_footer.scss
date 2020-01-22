@@ -1,0 +1,31 @@
+footer {
+    background-color: $black;
+    color: #fff;
+    padding: 30px;
+    .footer-sect {
+        @include media-breakpoint-up(md) {
+            display: flex;
+        }
+    }
+    .footer-col {
+        padding: 30px;
+        @include media-breakpoint-up(md) {
+            flex-basis: 33.33%;
+            padding: 10px 30px;
+        }
+        ul.partenaires {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+            list-style-type: none;
+            >li {
+                flex: 50%;
+                img {
+                    object-fit: stretch;
+                    margin: 3px;
+                    padding: auto 0 3 auto;
+                }
+            }
+        }
+    }
+}
